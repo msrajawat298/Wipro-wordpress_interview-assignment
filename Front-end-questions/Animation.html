@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: coral;
+            animation: move 2s infinite; /* Apply animation */
+        }
+
+        @keyframes move {
+            0% { transform: translateX(0); }
+            50% { transform: translateX(200px); }
+            100% { transform: translateX(0); }
+        }
+    </style>
+    <title>CSS Animation Example</title>
+</head>
+<body>
+    <div class="box"></div>
+</body>
+</html>
